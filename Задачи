@@ -1,1 +1,73 @@
-Пп
+Задача 10 
+ Public class LargestElement_array { 
+   Public static void main(String[]args){ 
+  
+ Int[] arr=new int[] {34,44121,23,11,5}; 
+ Int max=arr[0]; 
+ For(int i=0;i<arr.lenght;i++){ 
+  If(arr[i]>max) 
+ Max=arr[i]; 
+ } 
+ System.out.println("Largest Element present in given array:"+max); 
+ Задача 1  
+  
+ Int main()[ 
+ Int n; 
+ Cin>>n 
+ Int a; 
+ For(int i=0;i<n;i++)[ 
+ Cin>>a; 
+ If(i%2==0)cout<<a<<nn; 
+ Задача 6 
+ Public class NumberExample6 
+ { 
+ Public static void main(string[]args) 
+ { 
+ Int [] num =new int []{2,6,5,9,4}; 
+ For (int i=1;i<=num length;i++){ 
+ If(num[i-1]<num[i]){ 
+ If(num[i]>num i+1]){ 
+ System .out.println (num[i]); 
+ { 
+ Задача5 
+  
+ public class mane { 
+     public static void  main(String[]args){ 
+     Scanner in = new Scanner(System.in); 
+         System.out.println("Vvedite rozmer masiva :"); 
+                 int num = in.nextInt(); 
+                 Random rand = new Random(); 
+         int [] mas = new int[num]; 
+  
+         for (int i = 0; i < mas.length; i++) { 
+             mas[i] = rand.nextInt(10) + 1; 
+         } 
+         System.out.println(Arrays.toString(mas)); 
+         for (int i = 0; i < mas.length; i++) { 
+             if(i%2 == 1){ 
+                 mas[i] = 0; 
+             } 
+         } 
+         System.out.println(Arrays.toString(mas)); 
+  
+     } 
+ } 
+ Завдання 3 
+ int[] n = new int[]{1, -3, 6, 2, -9}; 
+         for (int i = 0; i < n.length; i++) { 
+             if (n[i] > 0) System.out.println(n[i]); 
+         } 
+ Завдання 7 
+ Public class NumberExample6 
+ { 
+ Public static void main(string[]args) 
+ { 
+ Int number=987654321,reverce =0 ; 
+ While (number !=0) 
+ { 
+ Int remainder=number % 10; 
+ Reverse=reverse*10+remainder; 
+ Number=number/10; 
+ } 
+ System .out .println("The reverce of the given number is:"+ reverce); 
+ {
